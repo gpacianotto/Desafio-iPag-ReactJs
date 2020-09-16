@@ -1,0 +1,30 @@
+.fundo{
+display: block;
+text-align: center;
+align-content: center;
+background-color: lightcoral;
+
+
+}
+
+.tabuleiro{
+  display: inline-block;
+  width:604px;
+  height:603px;
+  border: 0px; 
+  
+  }
+  .quadrado{
+    background: #fff;
+    border: 1px solid black;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 200px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
