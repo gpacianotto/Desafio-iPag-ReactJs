@@ -28,3 +28,12 @@ background-color: lightcoral;
     text-align: center;
     width: 200px;
   }
+
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  .status{
+    float: left;
+  }
