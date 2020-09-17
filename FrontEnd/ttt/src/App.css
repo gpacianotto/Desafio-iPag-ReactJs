@@ -1,22 +1,96 @@
-.fundo{
-display: block;
-text-align: center;
-align-content: center;
-background-color: lightcoral;
+html { 
+  background: url(space.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+body{
 
+  display: block;
+  text-align: center;
+  
+}
+.fundo{
+
+
+width: 100%;
+height: 100%;
+background-color: transparent;
 
 }
-
+.letras{
+  color:rgb(129, 129, 129) ;
+}
 .tabuleiro{
+  margin-top: 20px;
   display: inline-block;
-  width:604px;
-  height:603px;
-  border: 0px; 
+  margin-left: -20%;
+  background-color: black;
+  width:610px;
+  height:610px;
+  border: 1px solid white; 
   
   }
-  .quadrado{
-    background: #fff;
-    border: 1px solid black;
+  .quadrado0{
+    background: black;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid rgb(129, 129, 129);
+    border-right: 4px solid rgb(129, 129, 129);
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 200px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
+  .quadrado1{
+    background: black;
+    border-top: 4px solid black;
+    border-left: 4px solid rgb(129, 129, 129);
+    border-bottom: 4px solid rgb(129, 129, 129);
+    border-right: 4px solid rgb(129, 129, 129);
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 200px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
+  .quadrado2{
+    background: black;
+    border-top: 4px solid black;
+    border-left: 4px solid rgb(129, 129, 129);
+    border-bottom: 4px solid rgb(129, 129, 129);
+    border-right: 4px solid black;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 200px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .quadrado3{
+    background: black;
+    border-top: 4px solid rgb(129, 129, 129);
+    border-left: 4px solid black;
+    border-bottom: 4px solid rgb(129, 129, 129);
+    border-right: 4px solid  rgb(129, 129, 129);
     float: left;
     font-size: 24px;
     font-weight: bold;
@@ -29,11 +103,122 @@ background-color: lightcoral;
     width: 200px;
   }
 
+  .quadrado4{
+    background: black;
+    border: 4px solid rgb(129, 129, 129);
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 200px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
+  .quadrado5{
+    background: black;
+    border-top: 4px solid rgb(129, 129, 129);
+    border-left: 4px solid rgb(129, 129, 129);
+    border-bottom: 4px solid rgb(129, 129, 129);
+    border-right: 4px solid black;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 200px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
+  .quadrado6{
+    background: black;
+    border-top: 4px solid rgb(129, 129, 129);
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+    border-right: 4px solid rgb(129, 129, 129);
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 200px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
+  .quadrado7{
+    background: black;
+    border-top: 4px solid rgb(129, 129, 129);
+    border-left: 4px solid rgb(129, 129, 129);
+    border-bottom: 4px solid black;
+    border-right: 4px solid rgb(129, 129, 129);
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 200px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
+  .quadrado8{
+    background: black;
+    border-top: 4px solid rgb(129, 129, 129);
+    border-left: 4px solid rgb(129, 129, 129);
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 200px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
   .board-row:after {
     clear: both;
     content: "";
     display: table;
   }
   .status{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .quadroNegroLateral{
+
+    display: block;
+    margin: 10px;
     float: left;
+    text-align: center;
+    background-color: black;
+    border: 4px solid rgb(129, 129, 129);
+    padding: 10px;
+    width: 20%;
+    height: 10%;
+    
+  }
+  .quadroNegroSuperior{
+
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    background-color: black;
+    border: 4px solid rgb(129, 129, 129);
+    padding: 10px;
+    
+    
+  }
+  .letras2{
+    color: white;
+    font-size: 35px;
+    
   }

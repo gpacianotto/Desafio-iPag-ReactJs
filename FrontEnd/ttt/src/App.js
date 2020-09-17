@@ -7,7 +7,10 @@ function App() {
   return (
     <div className="fundo">
 
-      <h1>Jogo da Velha</h1>
+      <div className="quadroNegroSuperior">
+        <h1 className="letras2">Jogo da Velha</h1>
+      </div>
+      
 
       <Tabuleiro /> 
     </div>

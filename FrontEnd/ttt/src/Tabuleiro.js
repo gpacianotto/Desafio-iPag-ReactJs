@@ -38,7 +38,8 @@ export default class Tabuleiro extends React.Component {
       }
 
     renderizarQuadrado(i) {
-        return <Quadrado value={this.state.squares[i]} 
+
+        return <Quadrado value={this.state.squares[i]} value2 = {i}
         onClick={() => this.handleClick(i)}
         
         />;
@@ -51,7 +52,7 @@ export default class Tabuleiro extends React.Component {
             squares: Array(9).fill(null),
             xIsNext: true,
         };
-      }
+    }
 
       
 
@@ -69,7 +70,10 @@ export default class Tabuleiro extends React.Component {
 
         return(
             <div>
-                <div className="status">{status}</div>
+                <div className="quadroNegroLateral">
+                    <div className="status"><p className="letras2">{status}</p></div>
+                </div>
+                
                 <div className="tabuleiro">
                     
                     
